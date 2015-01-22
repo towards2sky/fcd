@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Flipkart Product Content type feature.
+ */
+
+include_once 'flipkart_product_content_type.features.inc';
