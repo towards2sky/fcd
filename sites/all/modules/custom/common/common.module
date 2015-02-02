@@ -1,0 +1,14 @@
+<?php
+
+/**
+* Implements hook_taxonomy_term_view_alter().
+*/
+
+//function common_taxonomy_term_view_alter(&$build){
+//  print '<pre>';
+//  print_r($build);
+//  print '</pre>';
+//  exit;
+//}
+
+
