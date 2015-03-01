@@ -1692,24 +1692,29 @@ body, div#page, div#main-wrapper{ background-color:#fff; font-family:Arial, Helv
 }
 
 #header{
-	background-color: #005387;
+	background: #005387 url(../images/header_bg.png) repeat;
+}
+#header #block-block-2{ float:right;}
+#header .region-header{ width:100%;}
+#flipkart-header #flipkart-logo{ float:left;}
+#flipkart-header #flipkart-slogon{ float:left;}
+#flipkart-header #flipkart-slogon p{
+	margin: 11px 15px;
+	font-size: 20px;
 }
 #main-menu{
-	background-color: #0a3151;
+	background-color: #005387;
 	width: 100%;
-	-webkit-transition: all 200ms linear 0s;
-	-moz-transition: all 200ms linear 0s;
-	-ms-transition: all 200ms linear 0s;
-	transition: all 200ms linear 0s;
 	position: relative;
-	box-shadow: #333 0 0 5px; padding:0px;}
+	box-shadow: #032D50 0 0 5px; 
+	padding:0px;}
 #main-menu-links a {
-color: #fff;
-float: left;
-font-size: 16px;
-line-height: 25px;
-padding: 10px;
-text-decoration: none;
+	color: #fff;
+	float: left;
+	font-size: 16px;
+	line-height: 25px;
+	padding: 10px;
+	text-decoration: none;
 }
 #main-menu-links li.active{ background-color:#fff;}
 #main-menu-links li.active a { color:#0a3151;}
@@ -1722,8 +1727,6 @@ text-decoration: none;
 #main-menu-links li a.active {
   border-bottom: none;
 }
-
-
 #main-menu-links a, #main-menu-links li a.active, #main-menu-links li.active-trail a{ background:none !important;}
 .sidebar .block{
 	background-color: #eff2f5;
@@ -1778,12 +1781,28 @@ text-decoration: none;
 
 #block-system-main .view-content .views-row{
 	font-size: 14px;
-padding: 10px;
-margin-bottom: 20px;
-border: 1px solid #dfdfdf;
-background-color: #FFF;
-color: #333;
--webkit-box-shadow: 0 4px 5px 0 rgba(0,0,0,.13);
--moz-box-shadow: 0 4px 5px 0 rgba(0,0,0,.13);
-box-shadow: 0 4px 5px 0 rgba(0,0,0,.13);
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #dfdfdf;
+	background-color: #FFF;
+	color: #333;
+	-webkit-box-shadow: 0 4px 5px 0 rgba(0,0,0,.13);
+	-moz-box-shadow: 0 4px 5px 0 rgba(0,0,0,.13);
+	box-shadow: 0 4px 5px 0 rgba(0,0,0,.13);
+	overflow:hidden;
 	}
+#block-system-main .view-content .views-row .visit-store{ 
+	display: block;
+	float: right;
+	}
+
+#block-system-main .view-content .views-row .visit-store a{
+	background-color: #f49809;
+	padding: 5px 10px;
+	border-radius: 4px;
+	color:#fff; 
+	font-size:16px;
+	box-shadow: 0 3px 10px 0 rgba(0,0,0,.3);
+	text-decoration:none;
+}
+#block-system-main .view-content .views-row .visit-store a:hover{ background-color:#f6ad0f; text-decoration:none; }
