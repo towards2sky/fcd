@@ -470,11 +470,11 @@ h1#site-name {
   padding: 0 1px;
   margin: 0 1px;
 }
-#main-menu-links a {
+/*#main-menu-links a {
   color: #333;
   background: #ccc;
   background: rgba(255, 255, 255, 0.7);
-  float: left; /* LTR */
+  float: left; 
   height: 2.4em;
   line-height: 2.4em;
   padding: 0 0.8em;
@@ -501,7 +501,7 @@ h1#site-name {
 #main-menu-links li a.active {
   border-bottom: none;
 }
-.featured #main-menu-links li a:active,
+*/.featured #main-menu-links li a:active,
 .featured #main-menu-links li a.active {
   background: #f0f0f0;
   background: rgba(240, 240, 240, 1.0);
@@ -1639,3 +1639,151 @@ div.admin-panel .description {
 #footer-wrapper .poll .bar .foreground {
   background-color: #ddd;
 }
+/*==================bkp=========================*/
+body, div#page, div#main-wrapper{ background-color:#fff; font-family:Arial, Helvetica, sans-serif;}
+#page-wrapper {
+  min-height: 100%;
+  min-width: 1170px;
+}
+#header div.section,
+#featured div.section,
+#messages div.section,
+#main,
+#triptych,
+#footer-columns,
+#footer {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.one-sidebar #content {
+  width: 840px;
+}
+.two-sidebars #content {
+  width: 510px;
+}
+.no-sidebars #content {
+  width: 1170px;
+  float: none;
+}
+#sidebar-first,
+#sidebar-second {
+  width: 330px;
+}
+.region-triptych-first,
+.region-triptych-middle,
+.region-triptych-last {
+  margin: 20px 20px 30px;
+  width: 350px;
+}
+#footer-wrapper {
+  padding: 35px 5px 30px;
+}
+.region-footer-firstcolumn,
+.region-footer-secondcolumn,
+.region-footer-thirdcolumn,
+.region-footer-fourthcolumn {
+  padding: 0 10px;
+  width: 272px;
+}
+#footer {
+  width: 1150px;
+  min-width: 920px;
+}
+
+#header{
+	background-color: #005387;
+}
+#main-menu{
+	background-color: #0a3151;
+	width: 100%;
+	-webkit-transition: all 200ms linear 0s;
+	-moz-transition: all 200ms linear 0s;
+	-ms-transition: all 200ms linear 0s;
+	transition: all 200ms linear 0s;
+	position: relative;
+	box-shadow: #333 0 0 5px; padding:0px;}
+#main-menu-links a {
+color: #fff;
+float: left;
+font-size: 16px;
+line-height: 25px;
+padding: 10px;
+text-decoration: none;
+}
+#main-menu-links li.active{ background-color:#fff;}
+#main-menu-links li.active a { color:#0a3151;}
+#main-menu-links a:hover,
+#main-menu-links a:focus {
+	color:#d6e2ec; 
+}
+#main-menu-links a.active {
+}
+#main-menu-links li a.active {
+  border-bottom: none;
+}
+
+
+#main-menu-links a, #main-menu-links li a.active, #main-menu-links li.active-trail a{ background:none !important;}
+.sidebar .block{
+	background-color: #eff2f5;
+	-webkit-box-shadow: 0 4px 5px 0 rgba(0,0,0,.13);
+	-moz-box-shadow: 0 4px 5px 0 rgba(0,0,0,.13);
+	box-shadow: 0 4px 5px 0 rgba(0,0,0,.13);
+	margin-bottom:30px;
+	padding:0px;
+	border-color:#D5D5D5;
+	}
+.sidebar .block .content{ padding:0px; margin:0px;}
+.sidebar .section{ padding-top:0px;}
+.section .region-sidebar-first .content{ padding:10PX;}
+#page-wrapper, #footer-wrapper{background-color: #005387;}
+#main-wrapper #sidebar-first .region-sidebar-first h2 {
+	padding: 10px 10px;
+	margin: 0px;
+	font-size: 19px;
+	font-family: Philosopher;
+	color: #fff;
+	background-color: #0a3151;
+	text-shadow:none;
+}
+
+#main-wrapper #content h2, #main-wrapper #content h1 {
+	border: 1px solid #333;
+	text-shadow: rgba(0,0,0,0.74902) 0 -1px 1px;
+	background: #464646;
+	background: -webkit-gradient(linear,left top,left bottom,from(#464646),to(#424242));
+	background: -moz-linear-gradient(top,#464646,#424242);
+	background: linear-gradient(to bottom,#464646,#424242);
+	background-image: -ms-linear-gradient(top,#464646,#424242);
+	color: #fff;
+	line-height: 38px;
+	font-size: 18px;
+	font-weight: normal;
+	padding: 0 10px;
+	text-transform:uppercase;
+	margin:0px;
+}
+.item-list ul {
+	padding:0px;
+	margin: 0px;
+}
+.item-list ul li{ list-style:none; line-height:1.6em;}
+.item-list ul li a{
+	font-size: 14px;
+	padding:0;
+	color: #333;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#block-system-main .view-content .views-row{
+	font-size: 14px;
+padding: 10px;
+margin-bottom: 20px;
+border: 1px solid #dfdfdf;
+background-color: #FFF;
+color: #333;
+-webkit-box-shadow: 0 4px 5px 0 rgba(0,0,0,.13);
+-moz-box-shadow: 0 4px 5px 0 rgba(0,0,0,.13);
+box-shadow: 0 4px 5px 0 rgba(0,0,0,.13);
+	}
