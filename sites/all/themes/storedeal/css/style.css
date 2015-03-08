@@ -1696,11 +1696,12 @@ body, div#page, div#main-wrapper{ background-color:#fff; font-family:Arial, Helv
 }
 #header #block-block-2{ float:right;}
 #header .region-header{ width:100%;}
-#flipkart-header #flipkart-logo{ float:left;}
+#flipkart-header #flipkart-logo{ float:left; }
+#flipkart-header #flipkart-logo img{width:170px; height:45px; }
 #flipkart-header #flipkart-slogon{ float:left;}
 #flipkart-header #flipkart-slogon p{
-	margin: 11px 15px;
-	font-size: 20px;
+	margin: 9px 15px;
+	font-size: 18px;
 }
 #main-menu{
 	background-color: #005387;
